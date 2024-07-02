@@ -186,14 +186,10 @@ const EnrollmentPeriodCourses = () => {
 export function App() {
   return (
     <Routes>
-    {/* <Route path="/" element={<Layout />}> */}
-      {/* <Route index element={<Navigate to="/projects" replace />} /> */}
-      <Route index element={<Home/>} />
+
       <Route path="/enroll" element={<EnrollmentPeriodCourses />} />
       <Route path="/create" element={<CreateSessionForm />} />
-      {/* <Route path="/login" element={<Loginform />} /> */}
-
   </Routes>
   );
 }
-export default EnrollmentPeriodCourses;
+export default App;
